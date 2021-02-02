@@ -40,12 +40,25 @@ body {
   display: flex;
   justify-content: center;
 }
-.title-section p {
+.title-section img {
+  width: 128px;
+  height: 128px;
+}
+.title-text-section {
+  height: 128px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title-text-section p {
   font-size: 36px;
   font-weight: 500;
 }
-.title-section span {
+.title-text-section span {
   font-size: 17px;
+}
+.navbar {
+  padding-top: 0;
 }
 .navbar-nav {
   font-weight: 500;
@@ -54,24 +67,19 @@ body {
   color: dodgerblue;
 }
 @media screen and (max-width: 600px) {
-  .navbar {
-    padding-top: 0;
+  .title-section img {
+    width: 64px;
+    height: 64px;
   }
-  .title-section p {
-    font-size: 26px;
+  .title-text-section {
+    height: 64px;
+  }
+  .title-text-section p {
+    font-size: 28px;
     margin-bottom: 0;
   }
-  .title-section span {
+  .title-text-section span {
     font-size: 12px;
-  }
-}
-@media screen and (max-width: 300px) {
-  .title-section p {
-    font-size: 17px;
-    margin-bottom: 0;
-  }
-  .title-section span {
-    font-size: 8px;
   }
 }
 
