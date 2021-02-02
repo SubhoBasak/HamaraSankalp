@@ -1,7 +1,8 @@
 // =================== back to top button =======================
 //Get the button:
 var b2top = document.getElementById("b2top");
-console.log(b2top);
+var navbar = document.getElementsByClassName("header-section")[0];
+
 // When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function () {
   scrollFunction();
@@ -12,6 +13,16 @@ function scrollFunction() {
     b2top.style.display = "block";
   } else {
     b2top.style.display = "none";
+  }
+  if (
+    document.body.scrollTop > 300 ||
+    document.documentElement.scrollTop > 300
+  ) {
+    navbar.style.position = "fixed";
+    navbar.style.top = "-150px";
+  } else {
+    navbar.style.position = "relative";
+    navbar.style.top = "0px";
   }
 }
 

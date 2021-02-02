@@ -10,24 +10,69 @@ a {
 body {
   height: 1000vh;
 }
+::-webkit-scrollbar {
+  width: 8px;
+  height: 0px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #bbb;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #888;
+}
 /* header and navbar styles */
 .header-section {
   margin: 0;
   padding: 0;
+  width: 100%;
+  background-color: #ffffffdd;
   box-shadow: 2px 2px 4px 1px #aaa;
   animation-name: navbar-landing;
   animation-duration: 3s;
   animation-fill-mode: forwards;
 }
 .title-section {
+  width: 100%;
   display: flex;
   justify-content: center;
+}
+.title-section p {
+  font-size: 36px;
+  font-weight: 500;
+}
+.title-section span {
+  font-size: 17px;
 }
 .navbar-nav {
   font-weight: 500;
 }
 .fa-facebook-square {
   color: dodgerblue;
+}
+@media screen and (max-width: 600px) {
+  .navbar {
+    padding-top: 0;
+  }
+  .title-section p {
+    font-size: 26px;
+    margin-bottom: 0;
+  }
+  .title-section span {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 300px) {
+  .title-section p {
+    font-size: 17px;
+    margin-bottom: 0;
+  }
+  .title-section span {
+    font-size: 8px;
+  }
 }
 
 /* back to top button style */
