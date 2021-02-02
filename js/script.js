@@ -20,6 +20,9 @@ function scrollFunction() {
   ) {
     navbar.style.position = "fixed";
     navbar.style.top = "-150px";
+    if (window.innerWidth <= 600) {
+      navbar.style.top = "-90px";
+    }
   } else {
     navbar.style.position = "relative";
     navbar.style.top = "0px";
