@@ -7,6 +7,9 @@ a {
   color: black;
   text-decoration: none;
 }
+li {
+  list-style: none;
+}
 body {
   height: 1000vh;
 }

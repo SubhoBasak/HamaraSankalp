@@ -1,0 +1,16 @@
+.event-img {
+  width: 100%;
+  height: 100%;
+  object-fit: scale-down;
+  align-self: flex-start;
+}
+.event-list {
+  font-size: 18px;
+  line-height: 3rem;
+}
+.event-list p {
+  color: dodgerblue;
+}
+.event-list i {
+  color: limegreen;
+}
