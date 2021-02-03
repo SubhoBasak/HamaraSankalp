@@ -10,12 +10,12 @@ a {
 li {
   list-style: none;
 }
-body {
-  height: 1000vh;
+.card {
+  z-index: 0 !important;
 }
 ::-webkit-scrollbar {
   width: 8px;
-  height: 0px;
+  height: 8px;
 }
 ::-webkit-scrollbar-track {
   background: #f1f1f1;
@@ -37,6 +37,7 @@ body {
   animation-name: navbar-landing;
   animation-duration: 3s;
   animation-fill-mode: forwards;
+  z-index: 100 !important;
 }
 .title-section {
   width: 100%;

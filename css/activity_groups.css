@@ -1,0 +1,38 @@
+.row {
+  width: 99%;
+}
+.group-header {
+  width: 100%;
+  text-align: center;
+  margin-top: 3rem;
+}
+.group-logo {
+  display: flex;
+  justify-content: center;
+}
+.group-logo img {
+  width: 90%;
+  max-width: 500px;
+  object-fit: scale-down;
+}
+.group-info {
+  font-size: 20px;
+}
+.group-info p {
+  padding: 5px;
+  margin-left: 5px;
+}
+.group-info li {
+  margin-left: 1rem;
+  margin-bottom: 2rem;
+  list-style: none;
+}
+.group-info li::before {
+  content: "\2022";
+  font-size: 32px;
+  color: red;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}

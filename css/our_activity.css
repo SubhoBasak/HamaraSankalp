@@ -1,0 +1,17 @@
+.activity-container {
+  padding: 3rem 1rem;
+}
+.card {
+  margin-bottom: 6rem;
+}
+.card-header {
+  font-weight: bold;
+  color: dodgerblue;
+}
+.card-title {
+  font-size: 24px;
+}
+.card-text {
+  font-size: 20px;
+  text-align: left;
+}

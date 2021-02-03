@@ -2,6 +2,7 @@
   display: inline-flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-bottom: 4rem;
 }
 .image-card {
   width: 24rem;
