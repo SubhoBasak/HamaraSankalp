@@ -36,3 +36,9 @@
   width: 1em;
   margin-left: -1em;
 }
+.water-mark-art {
+  max-width: 100%;
+  object-fit: scale-down;
+  position: absolute;
+  opacity: 0.2;
+}
