@@ -63,6 +63,8 @@ li {
 }
 .navbar {
   padding-top: 0;
+  width: 100%;
+  max-width: 100%;
 }
 .navbar-nav {
   font-weight: 500;
