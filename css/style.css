@@ -54,11 +54,11 @@ li {
   justify-content: center;
   align-items: center;
 }
-.title-text-section p {
+.title-text-section h1 {
   font-size: 36px;
   font-weight: 500;
 }
-.title-text-section span {
+.title-text-section h2 {
   font-size: 17px;
 }
 .navbar {
@@ -80,11 +80,11 @@ li {
   .title-text-section {
     height: 64px;
   }
-  .title-text-section p {
+  .title-text-section h1 {
     font-size: 28px;
     margin-bottom: 0;
   }
-  .title-text-section span {
+  .title-text-section h2 {
     font-size: 12px;
   }
 }
