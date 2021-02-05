@@ -1,4 +1,4 @@
-# HAMARA SANKALP
+# Hamara Sankalp
 
 ## MAKING IT POSSIBLE
 
