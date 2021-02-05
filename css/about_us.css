@@ -1,0 +1,9 @@
+.mid-logo {
+  max-width: 24rem;
+  object-fit: scale-down;
+}
+@media screen and (max-width: 600px) {
+  .mid-logo {
+    width: 90%;
+  }
+}
