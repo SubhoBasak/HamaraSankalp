@@ -1,15 +1,14 @@
 .activity-container {
-  padding: 3rem 1rem;
+  padding: 1.5rem 1rem;
 }
 .card {
   width: 90%;
   margin: auto;
   margin-top: 3rem;
-  margin-bottom: 6rem;
+  margin-bottom: 3rem;
 }
 .card a {
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 .card h3 {
