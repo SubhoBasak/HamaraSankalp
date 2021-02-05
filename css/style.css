@@ -66,6 +66,10 @@ li {
   width: 100%;
   max-width: 100%;
 }
+.navbar ul .dropdown-menu {
+  position: relative;
+  z-index: 10000 !important;
+}
 .navbar-nav {
   font-weight: 500;
 }
