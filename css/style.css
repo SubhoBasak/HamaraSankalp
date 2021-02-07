@@ -116,6 +116,21 @@ li {
   background: tomato;
 }
 
+/* home page carousel */
+#carouselExampleSlidesOnly {
+  min-height: 52rem;
+}
+@media screen and (max-width: 950px) {
+  #carouselExampleSlidesOnly {
+    min-height: 25rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  #carouselExampleSlidesOnly {
+    min-height: 13rem;
+  }
+}
+
 /* footer */
 .footer {
   width: 100%;
