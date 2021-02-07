@@ -12,7 +12,7 @@
   width: 100%;
   height: 2rem;
   background: #ddd;
-  color: #444;
+  color: rgb(135, 135, 135);
   margin-top: 15rem;
   margin-bottom: 0;
   text-align: center;
@@ -27,8 +27,9 @@
 }
 
 a {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   text-decoration: none;
+  font-size: 15px;
 }
 
 li {
