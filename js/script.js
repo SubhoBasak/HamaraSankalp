@@ -15,11 +15,11 @@ function scrollFunction() {
     b2top.style.display = "none";
   }
   if (
-    document.body.scrollTop > 300 ||
-    document.documentElement.scrollTop > 300
+    document.body.scrollTop > 60 ||
+    document.documentElement.scrollTop > 150
   ) {
     navbar.style.position = "fixed";
-    navbar.style.top = "-150px";
+    navbar.style.top = "-160px";
     if (window.innerWidth <= 600) {
       navbar.style.top = "-90px";
     }

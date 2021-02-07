@@ -12,7 +12,7 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    
+
     <!-- styles -->
     <link href="./css/style.css" rel="stylesheet" />
 
@@ -46,7 +46,7 @@
         </div>
         <!-- end header -->
         <!-- navbar -->
-        <nav id="navbar" class="navbar navbar-expand-lg mb-3">
+        <nav id="navbar" class="navbar navbar-expand-lg">
             <div class="container-fluid my-1">
                 <div class="navbar-brand">
                     <div class="brand-section">
@@ -67,7 +67,7 @@
                     data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"><i class="fa fa-bars"
-                        style="color: #ffffffbb; font-size: 30px;"></i></span>
+                            style="color: #ffffffbb; font-size: 30px;"></i></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav mx-auto mb-lg-0">
@@ -119,7 +119,7 @@
     <!-- end header and navbar -->
 
     <!-- back to top button -->
-    <button id="b2top" onclick="topFunction()"><i class="fas fa-angle-up"></i></button>
+    <button id="b2top" onclick="topFunction()"><i class="fas fa-chevron-up"></i></button>
     <!-- end back to top button -->
 
     <!-- carousel -->
@@ -153,7 +153,8 @@
     <div style="display: flex; justify-content: center; margin-top: 2rem;">
         <iframe class="mb-lg-5"
             src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fphoto%2F%3Ffbid%3D5077740582250900%26set%3Dgm.1072915746479106&width=750&show_text=true&height=412&appId"
-            width="560" height="315" style="object-fit: scale-down;" scrolling="no" frameborder="0" allowfullscreen="true"
+            width="560" height="315" style="object-fit: scale-down;" scrolling="no" frameborder="0"
+            allowfullscreen="true"
             allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
     </div>
     <div style="display: flex; justify-content: center;">
@@ -169,13 +170,13 @@
     <script src="./js/script.js"></script>
     <script>
         var myCarousel = document.querySelector('#carouselExampleSlidesOnly')
-            var carousel = new bootstrap.Carousel(myCarousel, {
-                interval: 3000,
-                wrap: true,
-                pause: false
-            })
+        var carousel = new bootstrap.Carousel(myCarousel, {
+            interval: 3000,
+            wrap: true,
+            pause: false
+        })
     </script>
-        <script>
+    <!-- <script>
             window.onscroll = function () { myFunction() };
     
             var navbar = document.getElementById("navbar");
@@ -188,7 +189,8 @@
                     navbar.classList.remove("sticky");
                 }
             }
-        </script>
+        </script> -->
     <!-- end scripts -->
 </body>
+
 </html>
