@@ -1,12 +1,23 @@
 /* global settings */
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 * {
   margin: 0;
   padding: 0;
 }
+.col-4 {
+  flex: 0 0 auto;
+  width: 27%;
+}
+.col-3{
+  flex: 0 0 auto;
+  width: 20%;
+}
+.ms-6{
+  margin-left: 6rem !important;
+}
 
 a {
-  color: black;
+  color: rgb(255, 255, 255);
   text-decoration: none;
 }
 
@@ -64,7 +75,6 @@ li {
 }
 
 .title-section {
-  width: 100%;
   display: flex;
   justify-content: center;
 }
@@ -102,7 +112,7 @@ li {
 .brand-section img {
   display: flex;
   width: 40px;
-  height: 40px;
+  height: 50px;
 }
 
 .brand-text-section {
@@ -152,7 +162,7 @@ li {
 }
 
 .nav-item {
-  padding: 6px 16px;
+  padding: 6px 0;
   margin: 0 10px;
 }
 
@@ -163,7 +173,6 @@ li {
 .fa-facebook-square {
   color: #ffffff;
 }
-
 
 .active{
   color: #fff !important;
@@ -210,7 +219,7 @@ li {
 
 .nav-dropdown:hover .dropdown-content {
   display: block;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease;
 }
 
 .nav-dropdown:hover .dropbtn {
@@ -259,12 +268,13 @@ li {
   .brand-section {
     display: flex;
   }
-  .navbar-brand{
-    margin-bottom: 10px;
-  }
   .nav-item {
     padding: 5px 10px;
     border-top: 1px solid rgba(255, 255, 255, 0.13);
+  }
+  .navbar-brand{
+    padding: 0;
+    margin: 0;
   }
   .dropdown-content a:hover {
     background-color: rgba(0, 0, 0, 0.172);
@@ -294,6 +304,10 @@ li {
     left: 10%;
     transition: all 0.5s ease;
   }
+  .d-hide{
+    display: none;
+  }
+
 }
 @media (max-width: 600px) {
   .title-section img {
@@ -320,10 +334,4 @@ li {
   #carouselExampleSlidesOnly {
     min-height: 13rem;
   }
-}
-
-
-/* home page carousel */
-#carouselExampleSlidesOnly {
-  min-height: 52rem;
 }
