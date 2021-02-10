@@ -7,3 +7,43 @@
   height: 90%;
   object-fit: scale-down;
 }
+a:hover{
+  color: black;
+}
+.bg-secondary-50{
+  background-color: #6c757dc9 !important;
+}
+.lead{
+  font-size: 15px;
+  font-weight: 400 !important;
+  color: rgb(165, 165, 165);
+}
+.h4{
+  color: rgb(165, 47, 47);
+}
+@media (max-width: 590px) {
+  .h1{
+    font-size: 16px;
+  }
+  .h4{
+    font-size: 14px;
+  }
+  .h2{
+    font-size: 15px;
+  }
+  .h6{
+    font-size: 12px;
+  }
+  .address{
+    padding: 1.5rem 0 !important;
+  }
+  .address-details{
+    padding: 1.5rem!important;
+  }
+  .address-details .mail,.address-details .phone{
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 100%;
+  }
+
+}
