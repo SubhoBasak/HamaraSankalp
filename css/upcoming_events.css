@@ -28,3 +28,14 @@
   min-width: 18rem;
   margin-left: 1rem;
 }
+.fa-2x {
+  font-size: 24px !important;
+}
+.text-success {
+  color: limegreen !important;
+}
+.bullets li {
+  list-style-type: circle;
+  margin-left: 40px;
+  line-height: 30px;
+}
