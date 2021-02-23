@@ -340,7 +340,7 @@ li {
 }
 .scale-down-image {
   max-height: 60rem;
-  object-fit: scale-down;
+  object-fit: cover;
 }
 @media screen and (max-width: 950px) {
   #carouselExampleSlidesOnly {
@@ -348,7 +348,7 @@ li {
   }
   .scale-down-image {
     max-height: 35rem;
-    object-fit: scale-down;
+    object-fit: cover;
   }
 }
 @media screen and (max-width: 600px) {
@@ -357,6 +357,6 @@ li {
   }
   .scale-down-image {
     max-height: 13rem;
-    object-fit: scale-down;
+    object-fit: cover;
   }
 }
