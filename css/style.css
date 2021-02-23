@@ -334,13 +334,29 @@ li {
     font-size: 12px;
   }
 }
+#carouselExampleSlidesOnly {
+  min-height: 60rem;
+  max-height: 60rem;
+}
+.scale-down-image {
+  max-height: 60rem;
+  object-fit: scale-down;
+}
 @media screen and (max-width: 950px) {
   #carouselExampleSlidesOnly {
-    min-height: 25rem;
+    min-height: 35rem;
+  }
+  .scale-down-image {
+    max-height: 35rem;
+    object-fit: scale-down;
   }
 }
 @media screen and (max-width: 600px) {
   #carouselExampleSlidesOnly {
     min-height: 13rem;
+  }
+  .scale-down-image {
+    max-height: 13rem;
+    object-fit: scale-down;
   }
 }
